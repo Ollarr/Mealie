@@ -76,6 +76,18 @@ var swiper = new Swiper(".menu-slider", {
       el: ".swiper-pagination",
       clickable: true,
    },
+   breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      700: {
+        slidesPerView: 1,
+      },
+      1000: {
+        slidesPerView: 2,
+      },
+   },
+   
 });
 
 var swiper = new Swiper(".blogs-slider", {
