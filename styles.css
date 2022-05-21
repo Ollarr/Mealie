@@ -106,7 +106,7 @@ section{
    font-weight: 300;
    color: red !important;
 }
-   /* color:var(--black); */
+  
 
 
 
@@ -225,6 +225,7 @@ section{
    line-height: 5rem;
    background: var(--white);
    color:var(--black);
+   border-radius: 1rem;
 }
 
 .swiper-button-next:hover,
@@ -522,6 +523,10 @@ section{
 
 .order .heading span{
    color:var(--white);
+   font-weight: 700;
+}
+.order .heading .h1{
+   color: var(--white);
 }
 
 .order .heading h3{
@@ -725,6 +730,7 @@ section{
    background: var(--black);
    margin:0 .3rem;
    font-size: 2.5rem;
+   border-radius: 1rem;
 }  
 
 .footer .share a:hover{
