@@ -84,7 +84,7 @@ var swiper = new Swiper(".menu-slider", {
         slidesPerView: 1,
       },
       1000: {
-        slidesPerView: 2,
+        slidesPerView: 1,
       },
    },
    
